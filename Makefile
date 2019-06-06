@@ -6,7 +6,7 @@ all: beam_beam $(summary_targets)
 
 beam_beam : config.hh config.C beam_beam.C
 	g++ -O2 -std=c++14 -I. beam_beam.C config.C -o beam_beam \
-          -lboost_filesystem -lboost_system -lboost_iostreams -lz
+          -lboost_filesystem -lboost_system -lboost_iostreams -lz -D_GLIBCXX_USE_CXX11_ABI=0
 
 ./beam_beam_%/summary.txt : beam_beam_%.txt beam_beam
 	rm -rf $(@D)
