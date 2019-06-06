@@ -6,10 +6,10 @@
 
 - "make" in the subdirectory "comparison_with_dynamic_beta_and_deflection_in_R" runs the script "comparison.R" in R programming language for all generated subdirectories beam_beam_\* and produces pdf plots in beam_beam_\*/pdf with the results and the comparison with the old (deflection + dynamic beta) approach. 
 
-[GKK comment: This doesn't work for me. Anyway this is simply for plotting. If you are insterested in using R in Ubuntu you can do:
---sudo apt-get install r-base
---in the prompt open R typing `R'
---within R install pacman with install.packages("pacman")
---q() to exit R
---within the comparison_with_dynamic_beta_and_deflection_in_R run `Rscript comparison.R  ../beam_beam_cms_4954`
+[GKK comment: The last step doesn't work for me. Anyway this is simply for plotting. If you are insterested in using R in Ubuntu you can do:
+-sudo apt-get install r-base
+-in the prompt open R typing `R'
+-within R install pacman with install.packages("pacman")
+-q() to exit R
+-within the comparison_with_dynamic_beta_and_deflection_in_R run `Rscript comparison.R  ../beam_beam_cms_4954`
 ]
