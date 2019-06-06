@@ -1,0 +1,29 @@
+# ---------- Long integers: ----------
+N.no.beam.beam.turns = 1000
+N.points = 10000
+N.sigma = 5
+N.stabilization.turns = 2000
+N.transitional.turns = 1000
+N.turns.with.beam.beam = 5000
+Z1 = 1
+Z2 = 1
+select.one.turn.out.of = 1000
+# ---------- Doubles: ----------
+N1 = 8.4e+10
+N2 = 8.4e+10
+Qx = 64.31
+Qy = 59.32
+beta = 19.17
+p = 6500
+sig1.x = 98.5
+sig1.y = 98.5
+sig2.x = 98.5
+sig2.y = 98.5
+# ---------- Strings: ----------
+kick.model = precise
+# ---------- Vectors of long integers: ----------
+# ---------- Vectors of doubles: ----------
+x2 = 0 49.208 98.416 147.623 196.83 246.03 295.246 344.454 393.662 442.87 492.078 541.286 590.492
+y2 = 0 0 0 0 0 0 0 0 0 0 0 0 0
+# ---------- Vectors of strings: ----------
+output = rx.ry.weights integrals centers points
