@@ -16,5 +16,5 @@ GKK comment: The last step doesn't work for me. Anyway this is simply for plotti
 
 - q() to exit R
 
--within the comparison_with_dynamic_beta_and_deflection_in_R run `Rscript comparison.R  ../beam_beam_cms_4954`
+- within the comparison_with_dynamic_beta_and_deflection_in_R run `Rscript comparison.R  ../beam_beam_cms_4954`
 
